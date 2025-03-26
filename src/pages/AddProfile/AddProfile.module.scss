@@ -1,0 +1,44 @@
+
+.titleZone {
+    display: flex;
+    gap: 40px;
+    padding-bottom: 70px;
+
+}
+
+.mainZone {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 872px;
+    margin: 0 auto;
+}
+
+.label {
+    font-weight: 500;
+    font-size: 30px;
+    font-family:'Montserrat', monospace;
+}
+
+.field {
+    margin-top: 20px;
+	font-weight: 500;
+    font-size: 20px;
+	font-family:'Lato', monospace;
+    line-height: 1.4;
+}
+
+.select {
+    margin-top: 20px;
+    margin-bottom: 340px;
+    color: #B1B9BE;
+	font-weight: 500;
+    font-size: 20px;
+	font-family:'Lato', monospace;
+    line-height: 1.4;
+    background: url('../../shared/assets/arrow.svg') no-repeat right 35px center;
+    background-color: white;
+    appearance: none;
+}
+
+

@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: 'Montserrat';
+  src: url("./shared/fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: 'Lato';
+  src: url("./shared/fonts/Lato/Lato-Regular.ttf");
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 160px 80px;
+  overflow-y: scroll;
+  font-family: -apple-system, BlinkMacSystemFont, 'Suisse', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #EAEFF4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 48px;
+  font-family:'Montserrat', monospace;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 36px;
+  font-family:'Montserrat', monospace;
+}
+
+div, a {
+  color: inherit;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+
+  @supports (user-select) {
+    user-select: none;
+  }
+}
+
+p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+  font-family:'Lato', monospace;
+}
+
+button {
+  width: fit-content;
+  padding: 22px 30px;
+  color: white;
+  font-weight: 600;
+  font-size:20px;
+  font-family:'Montserrat', monospace;
+  line-height: 1;
+  background-color: #3B46E0;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;  
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 31px 30px;
+  font-weight: 500;
+  font-size: 20px;
+  font-family:'Lato', monospace;
+  line-height: 1.4;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+input::placeholder {
+  font-weight: 500;
+  font-size: 20px;
+  font-family:'Lato', monospace;
+  line-height: 1.4;
+}
+
+select {
+  width: 100%;
+  padding: 31px 30px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+option {
+  width: 100%;
+  padding: 31px 30px;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+}

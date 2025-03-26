@@ -1,0 +1,35 @@
+.container {
+    width: 616px;
+}
+
+.accentParagraph {
+    color:#3B46E0;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 13px;
+}
+
+.requirementsZone {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conditionsZone {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.liItems {
+    margin-left: 20px;
+}
+
+.liItem {
+   font-size: 24px;
+   line-height: 1.5;
+}

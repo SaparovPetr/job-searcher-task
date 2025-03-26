@@ -1,0 +1,56 @@
+.formContainer { 
+	min-width: 881px;
+}
+
+.title {
+	padding-bottom: 30px;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.lable {
+    position: absolute; 
+	width: 1px; 
+	height: 1px;
+	margin: -1px; 
+	padding: 0; 
+	overflow: hidden; 
+	border: 0;
+	clip: rect(0 0 0 0);
+}
+
+.errorMessage {
+	margin-left: 15px;
+	color: maroon;
+}
+
+.reposButton {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 31px 30px;
+	color: inherit;
+	font-weight: 500;
+	font-size: 20px;
+	font-family:'Lato', monospace;
+    line-height: 1.4;
+	background-color: white;
+	border: none;
+	border-radius: 20px;
+}
+
+.submitButton {
+	position: absolute;
+	inset: 640px -85px;
+	width: 175px;
+	height: 70px;
+}
+
+.submitButton:disabled {
+	background-color: rgb(131 156 232);
+}
