@@ -1,3 +1,6 @@
+.container{
+    animation: fadein 500ms ease-out forwards;
+}
 
 .titleZone {
     display: flex;
@@ -60,4 +63,16 @@
     .select {     
         margin-bottom: 190px;        
     }  
+}
+
+@keyframes fadein {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
