@@ -181,9 +181,11 @@ const JobForm = () => {
 					</button>
 				</Link>
 
-				<button disabled={!isValid} className={styles.submitButton}>
-					<span>Отправить</span>
-				</button>
+				<div className={styles.submitButtonWrapper}>
+					<button disabled={!isValid} className={styles.submitButton}>
+						<span>Отправить</span>
+					</button>
+				</div>
 			</form>
 		</div>
 	);

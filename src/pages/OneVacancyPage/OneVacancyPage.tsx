@@ -53,7 +53,7 @@ const OneVacancyPage = () => {
 						</svg>
 					}
 				/>
-				<h1>{data[0].jobTitle}</h1>
+				<h1 className={styles.jobTitle}>{data[0].jobTitle}</h1>
 			</div>
 			<div className={styles.mainZone}>
 				<VacancyDescription vacancy={data[0]} />
