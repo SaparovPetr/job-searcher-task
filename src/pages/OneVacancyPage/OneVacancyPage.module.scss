@@ -7,10 +7,9 @@
 
 .titleZone {
     display: flex;
+    align-items: center;
     gap: 40px;
 }
-
-
 
 .mainZone {
     display: flex;
@@ -27,11 +26,7 @@
 @media (max-width: 1224px) {
     .mainZone {
         padding: 0 20px 0 30px;
-    }
-
-    .jobTitle {
-        font-size: 40px;
-    }
+    }  
 }
 
 @media (max-width: 739px) {
@@ -42,10 +37,6 @@
 
     .titleZone {
         gap: 20px;
-    }
-
-    .jobTitle {
-        font-size: 25px;
     }
 }
 

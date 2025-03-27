@@ -91,7 +91,7 @@ const AddProfile: React.FC<IAddProfileProps> = ({ service }) => {
 						</svg>
 					}
 				/>
-				<h1>{`Добавить ${service}`}</h1>
+				<h1 className={styles.serviceTitle}>{`Добавить ${service}`}</h1>
 			</div>
 			<div className={styles.mainZone}>
 				<label className={styles.label}>

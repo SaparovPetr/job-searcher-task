@@ -1,9 +1,9 @@
 
 .titleZone {
     display: flex;
+    align-items: center;
     gap: 40px;
     padding-bottom: 70px;
-
 }
 
 .mainZone {
@@ -42,3 +42,22 @@
 }
 
 
+@media (max-width: 973px) {
+    .titleZone {
+        gap: 20px;
+    }
+    
+    .mainZone {
+        padding: 0 10px;
+        width: 100%;        
+    }
+
+
+    .label {
+        font-size: 25px;
+    }
+
+    .select {     
+        margin-bottom: 190px;        
+    }  
+  }
