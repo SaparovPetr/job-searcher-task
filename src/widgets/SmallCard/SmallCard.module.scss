@@ -1,13 +1,12 @@
-.container {
+.smallCardContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-width: 566.67px;
+    width: 566.67px;
     min-height: 300px;
     padding: 30px;
     background-color: white;
     border-radius: 30px;
-
 }
 
 .paragraphs {
@@ -24,4 +23,10 @@
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+@media (max-width: 425px) {
+    .smallCardContainer {
+        max-width: 320px;
+    }
 }

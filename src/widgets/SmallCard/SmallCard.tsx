@@ -4,7 +4,7 @@ import { ISmallCardProps } from "../../shared/utils/types";
 
 const SmallCard = ({ vacancy }: ISmallCardProps) => {
 	return (
-		<li className={styles.container}>
+		<li className={styles.smallCardContainer}>
 			<div className={styles.paragraphs}>
 				<p className={styles.paleParagraph}>{vacancy.location}</p>
 				<p>{vacancy.jobTitle}</p>

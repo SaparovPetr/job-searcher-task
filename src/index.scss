@@ -47,8 +47,8 @@ div, a {
   color: inherit;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
-
-  @supports (user-select) {
+  
+  @supports (user-select: none) {
     user-select: none;
   }
 }
@@ -115,4 +115,10 @@ option {
   background-color: white;
   border: none;
   border-radius: 20px;
+}
+
+@media (max-width: 1024px) {
+  body {
+    padding: 66px 23px;
+  }
 }
