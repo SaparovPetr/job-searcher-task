@@ -47,8 +47,10 @@
 
 .submitButtonWrapper {
 	position: absolute;
-	inset: 640px -85px;
+	inset: 120% -10%;
+
 	padding-bottom: 40px;
+	width:fit-content;
 }
 
 .submitButton {	
@@ -66,29 +68,31 @@
 		width: 48%;
 		padding-right: 35px;
     }
+
+	.submitButtonWrapper {
+		inset: 120% -33%;
+	}
 }
 
 @media (max-width: 768px) {
     .title {
 		font-size: 30px;
-    }
+    }	
 }
-
 
 @media (max-width: 739px) {
     .formContainer {
 		width: 100%;
+		padding-right: 5px;
     }
 
 	.submitButtonWrapper {
-		inset: 564px 63px;
-	}
-
-	
+		inset: 120% 33%;
+	}	
 }
 
-// @media (max-width: 425px) {
-//     .submitButtonWrapper {
-// 		inset: 564px 63px;
-// 	}
-// }
+@media (max-width: 512px) {
+    .submitButtonWrapper {
+		inset: 120% 25%;
+	}
+}
